@@ -1,0 +1,70 @@
+﻿body {
+    font-family: Helvetica;
+    color : white;
+    background-color: #e0b748;
+    -webkit-appearance: none;
+}
+
+div {
+    font-style: italic;
+    text-align: center;
+}
+
+h1, h3 {
+    padding: 0px;
+}
+
+.container {
+    width: 800px;
+    border: 0.5px solid;
+    margin: 0 auto;
+    box-shadow:  15px 15px 15px 15px #888888;
+}
+
+label {
+    text-align : left;
+}
+
+#add_task {
+    margin : 20px 0px 0px 30px;
+    height : 17px;
+    width : 500px;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left : 0px;
+    margin-top: 0px;
+}
+
+li {
+    font-family:  'Georgia';
+    width : 500px;
+}
+
+
+#tasks {
+    width  : 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.alignment {
+    width:500px;
+    text-align:center;
+    overflow: auto;
+}
+
+.alignment  button {
+float: right;
+}
+
+.alignment input {
+float: left;
+margin-top:5px;
+}
